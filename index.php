@@ -1,10 +1,5 @@
 <?php
-	// connexion mysql
-	try {
-		$db = new mysqli( 'localhost', 'root', 'root', 'CMS-correct' );
-	} catch (mysqli_sql_exception $e) {
-		die('Probleme de connexion');
-	}
+	require_once('config.php');
 	$sql = "SELECT
 				`title`,
 				`css`,
