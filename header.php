@@ -1,6 +1,4 @@
-<?php
-	if(!isset($title)){
-		$title = "Le dev est un boulet";
+nike ta race
 	}
 ?>
 <!DOCTYPE html>
